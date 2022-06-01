@@ -1,6 +1,6 @@
 <?php
 
-require_once "namespace.php";
+require_once "../namespace.php";
 // use namespace
 use Data\Satu\Hero as Hero_1;
 use Data\Dua\Hero as Hero_2;

@@ -1,6 +1,6 @@
 <?php
 // struktur membuat class pada php
-class Person
+class People
 {
     var $name;
     var $address;
@@ -8,7 +8,7 @@ class Person
 }
 // struktur membuat object pada php
 
-$Person = new Person();
+$Person = new People();
 $Person->name = "agus";
 $Person->address = "lancar";
 $Person->country = "indonesia";
@@ -18,7 +18,7 @@ echo "Name : {$Person->name}" . PHP_EOL;
 echo "address : {$Person->address}" . PHP_EOL;
 echo "Country : {$Person->country}" . PHP_EOL;
 
-$Person2 = new Person();
+$Person2 = new People();
 $Person2->name = "eko";
 $Person2->address = "sabrang";
 
